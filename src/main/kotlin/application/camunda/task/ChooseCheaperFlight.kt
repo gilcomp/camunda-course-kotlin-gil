@@ -19,7 +19,11 @@ class ChooseCheaperFlight() : JavaDelegate {
                 cheaperFight = it
             }
         }
-        print("lowestPrice: " + lowestPrice)
+        print("\nlowestPrice (using forEach): " + lowestPrice)
+
+        cheaperFight = flightsList.sortedBy { it.second }.get(0)
+        print("\nlowestPrice (using sortedBy): " +cheaperFight)
+
         delegateExecution.setVariable("cheaperFlight", cheaperFight)
 
     }
