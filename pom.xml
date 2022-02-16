@@ -18,7 +18,7 @@
         <apache.commons-lang3.version>3.9</apache.commons-lang3.version>
         <jackson.module.kotlin.version>2.9.8</jackson.module.kotlin.version>
         <log4j.version>2.11.2</log4j.version>
-        <postgres.version>42.2.6</postgres.version>
+        <postgres.version>42.3.3</postgres.version>
     </properties>
 
     <dependencyManagement>
