@@ -11,7 +11,7 @@
     <properties>
         <java.version>1.8</java.version>
         <kotlin.version>1.3.41</kotlin.version>
-        <spring.boot.version>2.1.4.RELEASE</spring.boot.version>
+        <spring.boot.version>2.5.15</spring.boot.version>
         <camunda.spring.boot.version>3.3.2</camunda.spring.boot.version>
         <camunda.engine.version>7.11.0</camunda.engine.version>
 
